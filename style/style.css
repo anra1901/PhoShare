@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata&display=swap);
+/* GLOBAL LAYOUT */
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #ee776f;
+  font-family: "Inconsolata", monospace;
+}
+
+.menu-illu__bowl {
+  position: absolute;
+  width: 167px;
+  height: 111px;
+  padding-top: 37px;
+  padding-left: 41px;
+}
+
+/* HOME PAGE */
+.concept-text {
+  background: #d8d8d8;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 605px;
+}
+
+.concept-text h1 {
+  font-weight: bold;
+  font-size: 72px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.concept-text p {
+  max-width: 800px;
+  font-size: 24px;
+  color: #2b2a2a;
+}
+/*# sourceMappingURL=style.css.map */
