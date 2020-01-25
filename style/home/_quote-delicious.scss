@@ -1,0 +1,16 @@
+.quote-delicious {
+  background: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  min-height: 603px;
+
+  &__text {
+    @extend .quote-share__text;
+    grid-column: 1;
+  }
+}
+
+.prawn-illu {
+  @include image-sizing;
+  grid-column: 2;
+}
