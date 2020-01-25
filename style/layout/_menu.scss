@@ -1,7 +1,11 @@
 .menu-illu__bowl {
-  position: absolute;
-  width: 167px;
-  height: 111px;
-  padding-top: 37px;
-  padding-left: 41px;
+  @include menu-bowl;
+  max-width: 167px;
+  max-height: 111px;
+}
+
+.menu-illu-spilled__bowl {
+  @include menu-bowl;
+  max-width: 170px;
+  max-height: 570px;
 }

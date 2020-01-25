@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Inconsolata&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap);
 @import "./mixins/mixins";
 @import "./variables/variables";
 
@@ -10,3 +10,4 @@
 /* HOME PAGE */
 @import "./home/header";
 @import "./home/concept";
+@import "./home/quote-share";

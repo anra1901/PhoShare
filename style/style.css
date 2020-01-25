@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Inconsolata&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap);
 /* GLOBAL LAYOUT */
 * {
   margin: 0;
@@ -8,15 +8,23 @@
 
 body {
   background: #ee776f;
-  font-family: "Inconsolata", monospace;
+  font-family: "Source Code Pro", monospace;
 }
 
 .menu-illu__bowl {
   position: absolute;
-  width: 167px;
-  height: 111px;
   padding-top: 37px;
   padding-left: 41px;
+  max-width: 167px;
+  max-height: 111px;
+}
+
+.menu-illu-spilled__bowl {
+  position: absolute;
+  padding-top: 37px;
+  padding-left: 41px;
+  max-width: 170px;
+  max-height: 570px;
 }
 
 /* HOME PAGE */
@@ -50,5 +58,78 @@ body {
   max-width: 800px;
   font-size: 24px;
   color: #2b2a2a;
+}
+
+.quote-share,
+.quote-delicious {
+  background: #ffffff;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.noodles-illu {
+  height: 100%;
+  width: 100%;
+  -ms-grid-column: 1;
+  grid-column: 1;
+}
+
+.noodles-illu img {
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.quote-share__text, .quote-delicious__text {
+  color: black;
+  font-size: 50px;
+  -ms-grid-column: 2;
+  grid-column: 2;
+  place-self: center;
+  text-align: center;
+  padding: 80px;
+}
+
+.home-img-container {
+  height: 100%;
+  width: 100%;
+}
+
+.home-img-container img {
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.quote-delicious__text {
+  -ms-grid-column: 1;
+  grid-column: 1;
+}
+
+.prawn-illu {
+  height: 100%;
+  width: 100%;
+  -ms-grid-column: 2;
+  grid-column: 2;
+}
+
+.prawn-illu img {
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 /*# sourceMappingURL=style.css.map */
