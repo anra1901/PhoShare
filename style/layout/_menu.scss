@@ -1,3 +1,8 @@
+header {
+  display: flex;
+  justify-content: center;
+}
+
 .menu-illu__bowl {
   @include menu-bowl;
   max-width: 167px;
@@ -8,4 +13,27 @@
   @include menu-bowl;
   max-width: 170px;
   max-height: 570px;
+  display: none;
+  position: relative;
+
+  &__links {
+    list-style-type: none;
+    display: none;
+    position: absolute;
+
+    li {
+      margin-bottom: 20px;
+    }
+
+    a {
+      color: black;
+      font-size: 25px;
+      font-weight: bolder;
+      text-decoration: none;
+    }
+  }
+}
+
+.header-logo {
+  display: block;
 }
